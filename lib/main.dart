@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod/home_screen.dart';
+import 'home_screen.dart';
 
 final nameProvider = Provider<String>((ref) {
   return 'Flutter Riverpod';
